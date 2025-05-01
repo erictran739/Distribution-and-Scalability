@@ -1,0 +1,38 @@
+# Python virtual environments
+venv/
+.env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask instance folder
+instance/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+
+# Editor and OS files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Docker Compose override
+docker-compose.override.yml
+
+# Storage directory (runtime files)
+node/storage/
+
+# Test artifact
+test.txt
